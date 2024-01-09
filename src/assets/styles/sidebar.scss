@@ -1,0 +1,145 @@
+// 引入大的新增班级弹框
+.AddBigModal {  
+    .el-dialog {
+      width: 1260px;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+
+      position: absolute;
+      top: 50vh;
+      left: 50vw;
+      transform: translate(-50%, -50%);
+      margin-top: 0px !important;
+  
+      .el-dialog__header {
+        padding: 6px 16px 6px 16px !important;
+        margin-right: 0px;
+        // border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  
+  
+        .el-dialog__title {
+          font-size: 15px;
+          font-weight: 600;
+        }
+  
+        .el-dialog__headerbtn {
+          font-size: 20px;
+          width: 42px;
+        }
+      }
+  
+      .resetDiaLogTitle {
+        display: flex;
+        justify-content: space-between;
+  
+      }
+  
+      .el-dialog__body {
+        min-height: calc(100vh - 200px) !important;
+        padding: 0px 10px;
+  
+        .el-form-item__label {
+          height: 28px;
+          line-height: 28px;
+        }
+  
+        .el-form-item__content {
+          line-height: 28px !important;
+        }
+  
+        .el-input__wrapper {
+          padding: 0px 8px;
+        }
+  
+        .el-input__inner {
+          height: 28px;
+          font-size: 12px;
+        }
+  
+        .el-form--inline .el-form-item {
+          margin-right: 12px !important;
+          margin-bottom: 16px !important;
+  
+          label {
+            font-size: 12px;
+          }
+  
+          .el-input {
+            width: 180px !important;
+          }
+        }
+  
+        .collapseLine {
+          height: 40px;
+          background: rgba(58, 56, 55, 0.03);
+          border-radius: 4px;
+          width: calc(100% - 12px);
+          display: flex;
+          line-height: 40px;
+          padding-left: 12px;
+  
+          .leftIcon {
+            margin-right: 8px;
+            margin-top: 1px;
+          }
+  
+          .el-button-group {
+            margin-left: 20px;
+  
+            button {
+              line-height: 28px;
+              height: 28px;
+              font-size: 12px !important;
+              padding: 0px 15px;
+            }
+          }
+        }
+  
+        .formParent {
+          padding: 10px;
+          overflow: hidden;
+  
+        }
+      }
+      footer {
+        text-align: center;
+        padding-bottom: 10px;
+        border-top: 1px solid rgba(0, 0, 0, 0.03);
+      }
+    }
+  
+    .showTable {
+      margin-top: 10px;
+      th {
+        height: 32px !important;
+        padding: 0px !important;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        overflow: hidden !important;
+      }
+      td {
+        height: 28px !important;
+        font-size: 12px !important;
+        padding: 0px !important;
+      }
+    }
+  }
+.commonDialog{
+  .el-dialog {
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+    height: 90vh;
+    overflow: auto;
+
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    margin-top: 0px !important;
+    .el-dialog__body{
+      padding: 10px 20px !important;
+    }
+
+  }
+}

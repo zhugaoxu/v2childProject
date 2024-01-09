@@ -1,0 +1,238 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data":[],
+  "datax": [
+    {
+      "id": "123",
+      "parentId": "0",
+      "name": "系统管理",
+      "path": "/system",
+      "component": "Layout",
+      "children": [
+        {
+          "id": "1231",
+          "parentId": "123",
+          "name": "日志管理",
+          "path": "logsmanage1",
+          "component": "ParentView",
+          "children": [
+            {
+              "id": "12311",
+              "parentId": "1231",
+              "name": "弹框表格1",
+              "path": "logslogin",
+              "component": "system/logsmanage/logslogin"
+            },
+            {
+              "id": "12312",
+              "parentId": "1231",
+              "name": "工作流2",
+              "path": "uselogs",
+              "component": "system/logsmanage/uselogs"
+            },
+            {
+              "id": "12313",
+              "parentId": "1231",
+              "name": "弹框表单3",
+              "path": "donelogs",
+              "component": "system/logsmanage/donelogs"
+            }
+          ]
+        },
+        {
+          "id": "1232",
+          "parentId": "123",
+          "name": "技术管理",
+          "path": "logsmanage2",
+          "component": "ParentView",
+          "children": [
+            {
+              "id": "12321",
+              "parentId": "1232",
+              "name": "弹框表格11",
+              "path": "logslogin",
+              "component": "system/logsmanage/logslogin"
+            },
+            {
+              "id": "12322",
+              "parentId": "1232",
+              "name": "工作流22",
+              "path": "uselogs",
+              "component": "system/logsmanage/uselogs"
+            },
+            {
+              "id": "12323",
+              "parentId": "1232",
+              "name": "弹框表单33",
+              "path": "donelogs",
+              "component": "system/logsmanage/donelogs"
+            },
+            {
+              "id": "12324",
+              "parentId": "1232",
+              "name": "弹框表单44",
+              "path": "donelogs1",
+              "component": "system/logsmanage/donelogs"
+            }
+          ]
+        },
+        {
+          "id": "1233",
+          "parentId": "123",
+          "name": "看见管理",
+          "path": "logsmanage3",
+          "component": "ParentView",
+          "children": [
+            {
+              "id": "12331",
+              "parentId": "1233",
+              "name": "弹框表格55",
+              "path": "logslogin",
+              "component": "system/logsmanage/logslogin"
+            },
+            {
+              "id": "12332",
+              "parentId": "1233",
+              "name": "工作流66",
+              "path": "uselogs",
+              "component": "system/logsmanage/uselogs"
+            },
+            {
+              "id": "12333",
+              "parentId": "1233",
+              "name": "弹框表单77",
+              "path": "donelogs",
+              "component": "system/logsmanage/donelogs"
+            }
+          ]
+        },
+        {
+          "id": "1234",
+          "parentId": "123",
+          "name": "日志管理",
+          "path": "logsmanage4",
+          "component": "ParentView",
+          "children": [
+            {
+              "id": "12341",
+              "parentId": "1234",
+              "name": "弹框表格88",
+              "path": "logslogin",
+              "component": "system/logsmanage/logslogin"
+            },
+            {
+              "id": "12342",
+              "parentId": "1234",
+              "name": "工作流99",
+              "path": "uselogs",
+              "component": "system/logsmanage/uselogs"
+            },
+            {
+              "id": "12343",
+              "parentId": "12343",
+              "name": "弹框表单111",
+              "path": "donelogs",
+              "component": "system/logsmanage/donelogs"
+            }
+          ]
+        },
+        {
+          "id": "1235",
+          "parentId": "123",
+          "name": "技术管理",
+          "path": "logsmanage5",
+          "component": "ParentView",
+          "children": [
+            {
+              "id": "12351",
+              "parentId": "1235",
+              "name": "弹框表格112",
+              "path": "logslogin",
+              "component": "system/logsmanage/logslogin"
+            },
+            {
+              "id": "12352",
+              "parentId": "1235",
+              "name": "工作流113",
+              "path": "uselogs",
+              "component": "system/logsmanage/uselogs"
+            },
+            {
+              "id": "12353",
+              "parentId": "1235",
+              "name": "弹框表单114",
+              "path": "donelogs",
+              "component": "system/logsmanage/donelogs"
+            },
+            {
+              "id": "12354",
+              "parentId": "1235",
+              "name": "弹框表单115",
+              "path": "donelogs23",
+              "component": "system/logsmanage/donelogs"
+            }
+          ]
+        },
+        {
+          "id": "1236",
+          "parentId": "123",
+          "name": "看见管理",
+          "path": "logsmanage6",
+          "component": "ParentView",
+          "children": [
+            {
+              "id": "12361",
+              "parentId": "1236",
+              "name": "弹框表格116",
+              "path": "logslogin",
+              "component": "system/logsmanage/logslogin"
+            },
+            {
+              "id": "12362",
+              "parentId": "1236",
+              "name": "工作流117",
+              "path": "uselogs",
+              "component": "system/logsmanage/uselogs"
+            },
+            {
+              "id": "12363",
+              "parentId": "1236",
+              "name": "弹框表单118",
+              "path": "donelogs",
+              "component": "system/logsmanage/donelogs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "parentId": "0",
+      "name": "测试微前端",
+      "path": "/wei",
+      "component": "Layout",
+      "children": [
+        {
+          "id": "9931",
+          "parentId": "123",
+          "name": "测试Vue2",
+          "path": "testVueTwo",
+          "component": "ParentView",
+          "children": [
+            {
+              "id": "99311",
+              "parentId": "1231",
+              "name": "测试案例",
+              "path": "demoOne",
+              "component": "weiQian/index.vue"
+            }
+
+  
+          ]
+        }
+      ]
+
+    }
+  ]
+}

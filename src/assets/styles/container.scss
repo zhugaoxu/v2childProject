@@ -1,0 +1,33 @@
+.mainContain {
+    height: calc(100vh - 10px);
+    margin-top: 5px;
+    .mainCardPage {
+        height: 100%;
+        width: calc(100vw - 240px);
+    }
+}
+
+// 新增弹框的样式
+.addDialogComponent {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    margin-top: 0px !important;
+    border-radius: 6px;
+    .el-input {
+        width: 200px;
+    }
+    .el-textarea {
+        width: 490px;
+    }
+    .el-dialog__body {
+        padding: 20px;
+    }
+}
+.vxe-table-disabled{
+    background-color: #F5F7FA;
+    border-color: #dfe4ed;
+    color: #C0C4CC;
+    cursor: not-allowed;
+  }
